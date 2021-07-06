@@ -3,7 +3,7 @@ import { img_300, unavailable } from "../../config/config";
 import "./SingleContent.css";
 
 const SingleContent = (props) => {
-  const { id, poster, title, date, media_type, vote_average } = props;
+  const { poster, title, date, media_type, vote_average } = props;
   return (
     <div className="media">
       <Badge
