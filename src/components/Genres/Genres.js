@@ -55,7 +55,7 @@ const Genres = ({
       ))}
       {genres.map((genre) => (
         <Chip
-          style={{ margin: 2 }}
+          style={{ margin: 2, fontWeight: "600" }}
           label={genre.name}
           key={genre.id}
           clickable
